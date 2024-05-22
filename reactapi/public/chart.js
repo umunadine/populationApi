@@ -3,7 +3,7 @@ var nationName = [], nationYear = [], nationPopulation = []
 async function populationChart() {
   await getPopulationData()
 
-const ctx = document.getElementById('myChart').getContext('2d');
+const ctx = document.getElementById('myChart');
 
 const chart = new Chart(ctx, {
     type: 'bar',
